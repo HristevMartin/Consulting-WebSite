@@ -1,0 +1,76 @@
+/* Style nav items to make them more visible */
+.nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+/* Add hover effect to nav items */
+.nav-link:hover {
+    background-color: transparent;
+    /* Remove the background color */
+    text-decoration: none;
+    border-bottom: 2px solid #5694d2;
+    /* Add an underline */
+}
+
+.nav-item {
+    height: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+/* Set a dark blue background color for the whole nav bar */
+.header_section {
+    height: 60px;
+}
+
+.col-md-9 {
+    position: relative;
+    top: 13px;
+}
+
+.col-md-3 {
+    position: relative;
+    top: 13px;
+}
+
+span {
+    position: relative;
+    bottom: 15px;
+}
+
+.logo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.logo a {
+    color: #333;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #155284;
+}
+
+
+.header_section {
+    background-color: #f1f1f1;
+}
+
+.logo a {
+    color: #333;
+}
+
+.header_section {
+    border: none;
+    border-top: none;
+}
